@@ -1,0 +1,25 @@
+/* GENERAL SETTINGS */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER */
+
+.fl-headerbox1 {
+    height: 25px;
+    border: 2px solid blue;
+}
+
+.fl-headerbox2 {
+    height: 50px;
+    border: 2px solid blue;
+}
+
+.fl-returnal-background {
+    background-image: url(../img/jumbo-bg.png);
+    background-position: 50%;
+    height: 675px;
+    margin-top: 75px;
+}
+
