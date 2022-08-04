@@ -8,12 +8,11 @@ body {
 
 .fl-headerbox1 {
     height: 25px;
-    border: 2px solid blue;
 }
 
 .fl-headerbox2 {
     height: 50px;
-    border: 2px solid blue;
+    background-color: white;
 }
 
 .fl-returnal-background {
@@ -37,4 +36,33 @@ body {
 
 .fl-psplus {
     background-color: #bebcbb;
+}
+
+.ps-plus-logo {
+    width: 330px;
+    height: 70px;
+}
+
+.ps-plus-button {
+    background-color: rgba(255, 255, 255, 0.763);
+    border: none;
+    padding: 5px 10px;
+    color: #2d64e6;
+}
+
+.fl-psnow {
+    background-color: #161c3b;
+    color: white;
+}
+
+.ps-now-logo {
+    width: 330px;
+    height: 70px;
+}
+
+.ps-now-button {
+    background-color: white;
+    border: none;
+    padding: 5px 10px;
+    color: black;    
 }
