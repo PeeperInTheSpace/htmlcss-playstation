@@ -38,11 +38,6 @@ body {
     background-color: #bebcbb;
 }
 
-.ps-plus-logo {
-    width: 330px;
-    height: 70px;
-}
-
 .ps-plus-button {
     background-color: rgba(255, 255, 255, 0.763);
     border: none;
@@ -53,11 +48,6 @@ body {
 .fl-psnow {
     background-color: #161c3b;
     color: white;
-}
-
-.ps-now-logo {
-    width: 330px;
-    height: 70px;
 }
 
 .ps-now-button {
