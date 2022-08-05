@@ -22,23 +22,113 @@
     <header class="fixed-top">
         <section>
             <div class="row bg-dark fl-headerbox1">
-                <!-- <img src="img/sony_logo.svg" alt="sony-logo" class=""> -->
+                <div class="container-fluid">
+                    <div class="d-flex justify-content-end py-1 px-2">
+                        <img src="img/sony_logo.svg" class="img-fluid fl-sony-logo" alt="Sony"/>
+                    </div>
+                </div>
             </div>
         </section>
-        <section>
-            <div class="row fl-headerbox2">
-                <!-- <img src="img/sony_logo.svg" alt="sony-logo" class=""> -->
-            </div>
+        <section class="row fl-nav">
+            <nav class="navbar navbar-expand-lg bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                    <img src="img/play_logo.svg" alt="PlayStation" />
+                    </a>
+                    <button
+                    class="navbar-toggler collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNav"
+                    aria-controls="navbarNav"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                    >
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div
+                    class="navbar-collapse collapse justify-content-between"
+                    id="navbarNav"
+                    style=""
+                    >
+                    <ul class="navbar-nav">
+                        <li class="nav-item dropdown position-static">
+                        <button
+                            class="btn dropdown-toggle"
+                            type="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            Giochi
+                        </button>
+                        <ul
+                            class="dropdown-menu w-100 rounded-0 mt-0 border-0 justify-content-center start-0"
+                        >
+                            <li>
+                                <img src="img/play-menu-ico.png" alt="ps5-icon">
+                                <a class="dropdown-item" href="#">Playstation 5</a>
+                            </li>
+                            <li>
+                                <img src="img/play-menu-ico.png" alt="ps5-icon">
+                                <a class="dropdown-item" href="#">Playstation 4</a>
+                            </li>
+                            <li>
+                                <img src="img/play-menu-ico.png" alt="ps5-icon">
+                                <a class="dropdown-item" href="#"> Playstation 3</a>
+                            </li>
+                        </ul>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Hardware</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Servizi</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Novità</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">Fai acquisti</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link">Supporto</a>
+                        </li>
+                    </ul>
+    
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link" href="#">My PlayStation</a>
+                        </li>
+                        <li class="nav-item">
+                            <button type="button" class="fl-login-button rounded-pill">Accedi</button>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link"><i class="bi bi-search"></i></a>
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+                </nav>
         </section>
     </header>
 
     <!-- JUMBO TITLE SECTION -->
 
     <section class="fl-returnal-background">
-
-
-
-
+        <div class="container pb-5">
+            <div class="row">
+              <div class="col-12 col-lg-5">
+                <div class="returnal-content" class="mb-3">
+                  <img class="img-fluid w-50" src="img/returnal-hero-banner-logo.png" alt="Returnal"/>
+                  <h1 class="my-3">Rompi il cerchio</h1>
+                  <p class="my-3">
+                    Rialzati dopo ogni sconfitta e affronta una nuova sfida con ogni rinascita in questo esplosivo thriller fantascientifico, disponibile in esclusiva PS5.
+                  </p>
+                  <button type="button" class=" rounded-pill">Acquista ora</button>
+                </div>
+              </div>
+            </div>
+          </div>
     </section>
 
     <!-- GAME SELECTOR SECTION -->
@@ -115,10 +205,20 @@
     <!-- JUMBO TITLE SECTION 2 -->
 
     <section class="fl-ittakestwo-background">
-
-
-
-
+        <div class="container pb-5">
+            <div class="row">
+              <div class="col-12 col-lg-5">
+                <div class="it-takes-two-content" class="mb-3">
+                  <img class="img-fluid w-50" src="img/it-takes-two-logo.png" alt="It-tales-two"/>
+                  <h1 class="my-3">Un'avventura cooperativa selvaggia ti attende</h1>
+                  <p class="my-3">
+                    Trova un amico e partite insieme per l'avventura più folle delle vostre vite in It Takes Two, un gioco d'avventura cooperativa a piattaforme che stravolge il suo genere.
+                  </p>
+                  <button type="button" class="rounded-pill">Acquista ora</button>
+                </div>
+              </div>
+            </div>
+          </div>
     </section>
 
     <!-- INCOMING TITLES SECTION -->
@@ -287,12 +387,44 @@
             </div>
         </section>
 
+        <!-- FOOTER SECTION -->
 
+        <footer class="fl-footer pt-5 pb-5">
+            <section class="container d-flex flex-wrap justify-content-between ">
+                <div class="row d-flex flex-column">
+                    <img src="img/ps-footer.svg" alt="playstation-logo" class="img-fluid h-50 pb-5">
+                    <p><img src="img/language-globe.svg" alt="language" class="img-fluid language-globe"> Country / Region: Italy </p>
+                </div>
+                <div class="row d-flex justify-content-between">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 d-flex flex-column mb-5">
+                        <a href="">Link footer n.</a>
+                        <a href="">Link footer n.</a>
+                        <a href="">Link footer n.</a>
+                        <a href="">Link footer n.</a>
+                        <a href="">Link footer n.</a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 d-flex flex-column mb-5">
+                        <a href="">Link footer n.</a>
+                        <a href="">Link footer n.</a>
+                        <a href="">Link footer n.</a>
+                        <a href="">Link footer n.</a>
+                        <a href="">Link footer n.</a>
+                        <a href="">Link footer n.</a>
+                        <a href="">Link footer n.</a>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-4 d-flex flex-column mb-5">
+                        <a href="">Link footer n.</a>
+                        <a href="">Link footer n.</a>
+                        <a href="">Link footer n.</a>
+                    </div>
+                </div>
+            </section>
 
-
-
-
-
+            <section class="container">
+                <img src="img/sie-logo.svg" alt="sie-logo" class="img-fluid w-25">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque nam iste soluta ut nihil, ad in veritatis, dolore quia accusantium laborum vero deleniti perspiciatis! Aspernatur eius numquam ut optio totam.</p>
+            </section>
+        </footer>
 
 </body>
 

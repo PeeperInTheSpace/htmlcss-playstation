@@ -10,23 +10,76 @@ body {
     height: 25px;
 }
 
-.fl-headerbox2 {
+.fl-sony-logo {
+    width: 75px;
+}
+
+/* NAV SECTION */
+
+.fl-nav {
     height: 50px;
     background-color: white;
 }
 
+/* remove border from header dropdowns  */
+.nav-item.dropdown .btn:focus-visible,
+.nav-item.dropdown .btn:focus,
+.nav-item.dropdown .btn:hover {
+  border-width: 0px;
+}
+
+
+/* override the display: block 
+when a navigation dropdown shows its inner links */
+.fl-nav .dropdown-menu.show {
+  display: flex;
+}
+
+.fl-login-button {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+}
+
+/* MAIN */
+
 .fl-returnal-background {
     background-image: url(../img/jumbo-bg.png);
-    background-position: 50%;
-    height: 675px;
+    background-size: cover;
+    background-position: top;
     margin-top: 75px;
+    color: white;
+}
+
+.returnal-content {
+    margin-top: 15rem;
+  }
+  
+.returnal-content button {
+    background-color: #cd3d0f;
+    padding: 5px 15px;
+    color: white;
+    border: none;
+
 }
 
 .fl-ittakestwo-background {
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-position: 50%;
-    height: 956px;
+    background-size: cover;
+    background-position: top;
+    color: white;
     margin-top: 75px;
+}
+
+.it-takes-two-content {
+    margin-top: 15rem;
+}
+  
+.it-takes-two-content button {
+    background-color: #cd3d0f;
+    padding: 5px 15px;
+    color: white;
+    border: none;
 }
 
 .fl-incoming-titles {
@@ -55,4 +108,20 @@ body {
     border: none;
     padding: 5px 10px;
     color: black;    
+}
+
+.fl-footer {
+    background-color: #2d64e6;
+    color: white;
+}
+
+.fl-footer a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.language-globe {
+    width: 25px;
+    height: 25px;
 }
